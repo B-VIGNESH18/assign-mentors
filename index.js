@@ -5,7 +5,9 @@ app.use(express.json());
 
 // MongoDB setup
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/yourDBName");
+mongoose.connect(
+  "mongodb+srv://vignesh:Ka7x2wGQXiBNomMu@cluster0.2zrfree.mongodb.net/"
+);
 // useNewUrlParser: true,
 // useUnifiedTopology: true,
 
